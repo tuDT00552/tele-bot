@@ -1,3 +1,4 @@
+const port = process.env.PORT || 3000;
 const axios = require('axios');
 const TelegramBot = require('node-telegram-bot-api');
 const token = '6402409854:AAEp1rlgKQULRZus9Q2f7KFpO8bysChIZ_c';
